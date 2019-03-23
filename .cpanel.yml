@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pascom/repositories/dc-bot
+    - /bin/cp -R images $DEPLOYPATH
